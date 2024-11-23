@@ -1,10 +1,15 @@
 import React from 'react';
+import AppNav from './AppNav.jsx';
+import Footer from './Footer.jsx';
 
-const Layout = () => {
+const Layout = (props) => {
     return (
-        <div>
+        <>
+            <AppNav />
+            {props.children}
+            <Footer/>
             
-        </div>
+        </>
     );
 };
 

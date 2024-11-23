@@ -1,12 +1,11 @@
-import React from 'react';
+import Layout from "./../components/layout/Layout.jsx";
 
 const HomePage = () => {
-    return (
-        <div>
-            <h1>this is home page</h1>
-            
-        </div>
-    );
+  return (
+    <>
+      <Layout></Layout>
+    </>
+  );
 };
 
 export default HomePage;
