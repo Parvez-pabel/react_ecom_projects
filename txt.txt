@@ -1,0 +1,14 @@
+Pages
+{
+    AboutPage.jsx CartPage.jsx ComplainPage.jsx ContactPage.jsx HomePage.jsx HowToBuyPage.jsx InvoicePage.jsx LoginPage.jsx OrderPage.jsx OtpPage.jsx PrivacyPage.jsx ProductByBrandPage.jsx ProductByCategoryPage.jsx ProductByKeywordPage.jsx ProductDetailsPage.jsx ProfilePage.jsx RefundPage.jsx TermsPage.jsx WishPage.jsx
+
+}
+
+skeleton{
+    Skeleton.jsx
+    BrandsSkeleton.jsx CartSkeleton.jsx CategorySkeleton.jsx DetailsSkeleton.jsx FeaturesSkeleton.jsx LegalContentSkeleton.jsx ProductsSkeleton.jsx ProfileSkeleton.jsx SliderSkeleton.jsx 
+}
+
+store{
+    CartStore.js FeatureStore.js InvoiceStore.js ProductStore.js ReviewStore.js UserStore.js WishStore.js
+}
