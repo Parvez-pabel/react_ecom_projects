@@ -45,7 +45,7 @@ const AppNav = () => {
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#nav06"
-            ariacontrols="nav06"
+            aria-controls="nav06"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
@@ -68,8 +68,8 @@ const AppNav = () => {
                 placeholder="Search"
                 aria-label="Search"
               />
-                          <button className="btn btn-outline-dark" type="submit">
-                              <img src={src} alt="" />
+              <button className="btn btn-outline-dark" type="submit">
+                <img src={src} alt="" />
               </button>
             </div>
             <Link
